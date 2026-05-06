@@ -71,7 +71,6 @@ function getFactorial(n) {
  *   -1,1  =>  0  ( = -1 + 0 + 1 )
  */
 function getSumBetweenNumbers(n1, n2) {
-  // eslint-disable-next-line no-mixed-operators
   return ((n2 - n1 + 1) * (n1 + n2)) / 2;
 }
 
